@@ -1,0 +1,18 @@
+img{
+    height: 250 ;
+    width: 250 ;
+    margin: 0 auto;
+    display: block;
+    padding: 8px;
+}
+
+.section{
+    font-family: monospace;
+    background-color: bisque;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#heading{
+    padding: 8px;
+}
