@@ -4,15 +4,104 @@
         <meta charset="UTF-8">
         <title> The LAB </title>
         <link rel="stylesheet" href="styles/indx.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
-        <div class="content">
-        <h1 id="heading"> Lab Dashboard </h1>
-        <ul id="list">
-            <li><a href="./devices/ip1.html" target="_blank" rel="noopener noreferrer">406m</a></li>
-            <li><a href="./devices/ip2.html" target="_blank" rel="noopener noreferrer">40-03</a></li>
-            <li><a href="./devices/ip3.html" target="_blank" rel="noopener noreferrer">404f</a></li>
-        </ul>
-        </div>
+        <div class="header"> EC INDIA - Pune Lab - Embedded Team</div>
+        <div class="line"> ------------------------------------------------------------------------------------ </div>
+        <div class="section1"> In the lab: </div>
+        <table class="devices-lab">
+            <thead>
+            <tr>
+                <th>Device</th>
+                <th>Status</th>
+                <th>Reserved By</th>
+                <th>Login Activity</th>
+                <th>Availability</th>
+                <th>Console-port</th>
+                <th>Team</th>
+                <th>Reserve</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> <a href="devices/10.192.145.13.html" target="_blank" rel="noopener noreferrer">10.192.145.13 - 4003</a></td>
+                <td><i class="fa-solid fa-circle-check" style="color: green;"></i> Up</td>
+                <td> <select>
+                    <option value="Maneesh">Maneesh</option>
+                    <option value="Anurag">Anurag</option>
+                    <option value="Suraj">Suraj</option>
+                    <option value="Shishir">Shishir</option>
+                </select> </td>
+                <td> Logged In</td>
+                <td> <i class="fa-solid fa-ban" style="color: red;"></i> Not Available </td>
+                <td> 4 </td>
+                <td> Garuda </td>
+            </tr>
+            <tr>
+                <td> <a href="devices/10.192.145.15.html" target="_blank" rel="noopener noreferrer">10.192.145.15 - 404f</a></td>
+                <td><i class="fa-solid fa-circle-check" style="color: green;"></i> Up</td>
+                <td> <select>
+                    <option value="Shishir">Shishir</option>
+                    <option value="Anurag">Anurag</option>
+                    <option value="Maneesh">Maneesh</option>
+                    <option value="Suraj">Suraj</option>
+                </select> </td>
+                <td> Logged out</td>
+                <td> <i class="fa-solid fa-circle-check" style="color: green;"></i> Available </td>
+                <td> 8 </td>
+                <td> Indus </td>
+            </tr>
+            <tr>
+                <td> <a href="devices/10.192.145.16.html" target="_blank" rel="noopener noreferrer">10.192.145.16 - 406m</a></td>
+                <td><i class="fa-solid fa-circle-xmark" style="color: red;"></i> Down</td>
+                <td> <select>
+                    <option value="Suraj">Suraj</option>
+                    <option value="Shishir">Shishir</option>
+                    <option value="Anurag">Anurag</option>
+                    <option value="Maneesh">Maneesh</option>
+                </select> </td>
+                <td> Logged out</td>
+                <td> <i class="fa-solid fa-ban" style="color: red;"></i> Not Available </td>
+                <td> 1 </td>
+                <td> Dauntless </td>
+            </tr>
+            <tr>
+                <td> <a href="devices/10.192.145.17.html" target="_blank" rel="noopener noreferrer">10.192.145.17 - Linux Server</a></td>
+                <td><i class="fa-solid fa-circle-xmark" style="color: red;"></i> Down</td>
+                <td> <select>
+                    <option value="Garuda">Garuda</option>
+                    <option value="Suraj">Suraj</option>
+                    <option value="Shishir">Shishir</option>
+                    <option value="Anurag">Anurag</option>
+                    <option value="Maneesh">Maneesh</option>
+                </select> </td>
+                <td> Logged out</td>
+                <td> <i class="fa-solid fa-ban" style="color: red;"></i> Not Available </td>
+                <td> 1 </td>
+                <td> Garuda </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="section2"> Available: </div>
+        <table class="devices-stock">
+            <thead>
+                <tr>
+                <th>Device</th>
+                <th>Quantity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Eagle 404f</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Eagle 406m</td>
+                <td>1</td>
+            </tr>
+             
+            </tbody>
+        </table>
     </body>
 </html>

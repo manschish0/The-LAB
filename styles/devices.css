@@ -1,18 +1,25 @@
-img{
-    height: 250 ;
-    width: 250 ;
-    margin: 0 auto;
-    display: block;
+th, td {
+    border: 2px solid black;
     padding: 8px;
+
 }
 
-.section{
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    flex: 1;
+    background-color: #C994E4
+}
+
+body {
+    display: flex;
+    background-color: #E6E6FA;
+    padding: 0 150px;
     font-family: monospace;
-    background-color: bisque;
-    color: blue;
-    margin-bottom: 10px;
 }
-
-#heading{
-    padding: 8px;
-}
+  
